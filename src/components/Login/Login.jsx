@@ -1,5 +1,6 @@
+import React from 'react';
 import './Login.css';
-import Users from '../../Utils/Users';
+import Users from '../../Utils/User';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Posts from '../Posts/Posts';

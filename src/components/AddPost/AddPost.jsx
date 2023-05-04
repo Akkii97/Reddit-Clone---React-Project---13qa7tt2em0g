@@ -1,9 +1,10 @@
+import React from "react";
 import { useState,useEffect } from "react";
 import post from "../../Utils/posts";
 import "./Addpost.css"
 import Login from "../Login/Login";
 // import { MMKVLoader } from "react-native-mmkv-storage";
-import AsyncStorage from '@react-native-async-storage/async-storage';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigate } from "react-router-dom";
 
 

@@ -1,3 +1,4 @@
+import React from 'react';
 // import { useState } from 'react';
 import './Header.css';
 import logo from '../../Utils/reddit-logo.png';

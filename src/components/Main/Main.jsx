@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "../Header/Header";
 // import Post from "../Posts/Post";
 import Posts from "../Posts/Posts";

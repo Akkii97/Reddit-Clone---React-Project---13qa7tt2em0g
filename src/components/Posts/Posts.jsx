@@ -1,4 +1,5 @@
 import { useState } from "react";
+import React from "react";
 import post from "../../Utils/posts";
 import Header from "../Header/Header";
 import Header1 from "../Header/Header1";

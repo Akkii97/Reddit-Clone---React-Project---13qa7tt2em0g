@@ -1,4 +1,5 @@
 // import Navbar from "../Navbar/Navbar";
+import React from "react";
 import Login from "../Login/Login";
 import { useNavigate } from "react-router-dom";
 import logo from '../../Utils/reddit-logo.png';

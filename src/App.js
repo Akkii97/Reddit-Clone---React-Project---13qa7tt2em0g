@@ -1,21 +1,23 @@
-
-import '../styles/App.css';
-import Posts from './Components/Posts/Posts';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Login from './Components/Login/Login';
-// import Tabs from './Components/Extra/Tabs';
-import AddPost from './Components/AddPost/AddPost';
-import Main from './Components/Main/Main';
-import Error from './Components/Error/Error';
-import Header1 from './Components/Header/Header1';
-import User from './Components/User/User';
-// import Header from './Components/Header/Header';
+import React from 'react';
+import './App.css';
+import Posts from './components/Posts/Posts';
+import {HashRouter, Routes, Route} from 'react-router-dom';
+import Login from './components/Login/Login';
+// import Tabs from './components/Extra/Tabs';
+import AddPost from './components/AddPost/AddPost';
+import Main from './components/Main/Main';
+import Errordata from './components/Error/Errordata'; 
+import Header1 from './components/Header/Header1';
+import User from './components/User/User';
+// import Header from './components/Header/Header';
 
 
 function App() {
   return (
+    
 
-    <BrowserRouter>
+    <HashRouter>
+    
     <Header1/>
     <Routes>
       <Route path='/' element={<Main />} />
@@ -24,10 +26,8 @@ function App() {
       <Route path='/Login' element={<Login />} />
       <Route path='/User' element={<User />} />
       <Route path='*' element={<Error />} />
-
-
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
     // <Tabs />
     // <Header1/>
