@@ -22,7 +22,7 @@ const Login = (props) => {
                 while(email === user.email && password === user.password){
                     alert('login Successfully');
                     // props.loginCheck('loggedIn');
-                    localStorage.setItem("user", "12345");
+                    localStorage.setItem("user", {email});
                     navigate('/User');
                     break;   
                 }

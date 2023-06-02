@@ -4,6 +4,11 @@ const Users = [
         email: 'akash@gmail.com',
         password: '123'
     },
+    {
+        userName: 'vikas',
+        email:'vikas@gmail.com',
+        password:'123'
+    }
    
 ]
 
